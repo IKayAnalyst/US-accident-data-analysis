@@ -1,21 +1,30 @@
 # U.S. Accidents Analysis - Power BI Report
 
-This Power BI report provides a detailed analysis of car accidents that occurred in the United States. The dataset used contains records of over 2.5 million accidents, making it one of the most comprehensive views of road safety patterns in the country.
-
+This repository contains a Power BI dashboard that provides insightful visualizations and analysis of traffic incidents across major U.S. cities . The dashboard explores key metrics such as weather-related incidents, incident distribution by city, time-based trends, and emergency case monitoring .
  🔍 Project Overview
 
-The goal of this project is to explore accident trends, identify risk patterns, and uncover insights that can help improve road safety and policy-making. 
+The goal of this dashboard is to help stakeholders—such as transportation planners, city officials, and emergency response teams—understand patterns in traffic incidents and make data-driven decisions to improve road safety and infrastructure planning.
 
  📊 Key Features of the Report
 
-- Total Number of Accidents by state and city
-- Accident Severity Distribution
-- Top 10 States & Cities with the highest accident rates
-- Accident Trends Over Time (yearly and monthly)
-- Weather Conditions during accidents
-- Hourly Accident Heatmap to show peak accident times
-- Interactive Filters to explore by severity, location, and time
+1. TRAFFIC INCIDENT DISTRIBUTION 
+   Visual breakdown of total incidents by city
+   Top cities include Miami, Houston, Los Angeles, Dallas, Charlotte, Orlando, Austin, and Raleigh
 
+   
+2. WHEATHER IMPACT ANALYSIS
+   Correlation between weather conditions (e.g., heavy rain, fog, thunderstorms) and traffic incidents
+   Categorization of incidents by severity under various weather scenarios
+
+   
+3. TEMPORAL TRENDS
+   Monthly and seasonal trends showing peak periods for traffic incidents
+   Comparison between emergency cases and stable traffic conditions over time
+
+
+4. EMERGENCY CASE MONITORING
+   Timeline visualization of critical incidents with start and end times
+   Duration and frequency insights for high-severity events
  📁 File
 
 - `US_Accidents_Analysis.pbix` – The main Power BI file containing the full interactive report.
@@ -23,32 +32,50 @@ The goal of this project is to explore accident trends, identify risk patterns, 
  📌 Tools Used
 
 - Power BI Desktop – Data visualization
+- Power Query : For data transformation and cleaning within Power BI
 - Dataset Source – [US Accidents (Kaggle)](https://www.kaggle.com/datasets/sobhanmoosavi/us-accidents)
 
- 📎 How to Use
+ 📎 EXPLORE DASHBOARD
+  Navigate through different pages to analyze:
 
-1. Download the `.pbix` file.
-2. Open in Power BI Desktop.
-3. Interact with visuals using filters and slicers.
+1. City-wise incident distribution
+2. Weather impact
+3. Time trends
+4. Emergency incidents
 
- 🧠 Insights
+ 🧠 KEY INSIGHTS
+  Top Cities by Incidents:
 
-- Accidents are most frequent during peak traffic hours.
-- Weather conditions such as rain and fog are correlated with increased accident severity.
-- Urban areas tend to have higher accident frequencies.
+1. Miami: 386K incidents
+2. Houston: 364K incidents
+3. Los Angeles: 343K incidents
+4. Emergency incidents
 
- 🙋‍♂️ About Me
- Hi there! I'm a passionate Data Analyst with a strong interest in transforming raw data into meaningful insights that drive smarter decisions. 
- I specialize in data storytelling through dashboards, reports, and deep-dive analysis.
+Most Impactful Weather Conditions :
+1. Heavy Rain
+2. Fog
+3. Thunderstorms
+4. Emergency incidents
+
+Peak Incident Months:
+1. July and August show the highest number of incidents
+2. November and December are relatively more stable
+
+ 
 
 ### 🔍 What I Do:
 - Analyze large datasets to uncover trends and patterns
 - Build interactive dashboards using Power BI, Excel, and Tableau
 - Use SQL, Python (Pandas/Matplotlib) for data cleaning and exploration
 - Communicate insights with clarity for both technical and non-technical audiences
-Follow my journey here or connect with me on
+
+✉️ Contact
+For questions, feedback, or collaboration opportunities, feel free to reach out:
+
+📧 [Email: Ikayanalystsolutions@gmail.com]
+📸 [Instagram: @ikay_analyst_solutions](https://www.instagram.com/ikay_analyst_solutions/?igsh=YmJhZmV2bWN5dnlr)  
 [TikTok - @Ikayprince_10](https://www.tiktok.com/@ikayprince_10)
-Instagram: [@ikay_prince11](https://www.instagram.com/ikay_prince11/).
+
 
 
 ---
